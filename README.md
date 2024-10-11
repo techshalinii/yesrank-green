@@ -12,7 +12,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. <br>
 
-Link of app: https://vercel.live/link/yesrank.vercel.app?via=project-overview-visit-button&p=1
+Link of app: [https://vercel.live/link/yesrank.vercel.app?via=project-overview-visit-button&p=1](http://yesrank.vercel.app)
 
 
 ### Learn More
