@@ -18,7 +18,7 @@ export const Hero = () => {
       <div className="container">
         <div className='md:flex items-center'>
         <div className='md:w-[478px]'>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">"Accelerate Your Business Growth</h1>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">Accelerate Your Business Growth</h1>
           <p className="text-xl text-[#010D3E] tracking-tight mt-6">
           Partner with Yesrank for innovative digital marketing strategies that drive exceptional ROI and measurable success
           </p>
