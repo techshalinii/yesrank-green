@@ -31,5 +31,8 @@
         @apply p-10 border border-solid border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;
     }
 }
-
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+  }
 
