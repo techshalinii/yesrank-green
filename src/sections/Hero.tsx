@@ -1,5 +1,5 @@
 'use client';
-import cogImage from '@/assets/cog.png'
+import cogImage from '@/assets/cog-g.png'
 import cylinderImage from '@/assets/cylinder1.png';
 import noodleImage from '@/assets/half.png'
 import {motion, useScroll, useTransform, useMotionValueEvent} from 'framer-motion'
