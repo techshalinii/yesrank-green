@@ -1,7 +1,7 @@
 "use client";
 import ArrowRight from "@/assets/arrow-right.svg";
-import starImage from "@/assets/star.png";
-import springImage from "@/assets/spring.png";
+import starImage from "@/assets/four.png";
+import springImage from "@/assets/spiral.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -17,7 +17,7 @@ export const CallToAction = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip"
+      className="bg-gradient-to-b from-white to-[#AFFFEA] py-24 overflow-x-clip"
     >
       <div className="container">
         <div className="section-heading relative">
