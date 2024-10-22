@@ -1,26 +1,26 @@
 'use client'
 import Image from "next/image";
 import React from "react";
-import pyramidImg from '@/assets/pyramid.png'
-import star from '@/assets/star.png'
-import spring from '@/assets/spring.png'
-import helix from '@/assets/helix.png'
-import cube from '@/assets/cube-helix 1.png'
+import pyramidImg from '@/assets/pyramid1.png'
+import plane from '@/assets/plane.png'
+import sphere from '@/assets/sphere.png'
+import diamond from '@/assets/diamond.png'
+import cube from '@/assets/square.png'
 
 const service= [
     {
         title: 'SEO',
-        imageSrc: pyramidImg,
+        imageSrc: plane,
         description: 'Boost your organic visibility and attract high-quality traffic.',
     },
     {
         title: 'Local SEO',
-        imageSrc: star,
+        imageSrc:pyramidImg,
         description: 'Dominate local search and connect with nearby customers.',
     },
     {
         title: 'PPC Advertising',
-        imageSrc:spring,
+        imageSrc:sphere,
         description: ' Drive immediate traffic with targeted ad campaigns.',
     },
     {
@@ -30,14 +30,14 @@ const service= [
     },
     {
         title: 'Content Marketing',
-        imageSrc:helix,
+        imageSrc:diamond,
         description: 'Deliver valuable content that resonates and converts',
     }
 ]
 
 export const Service = () => {
   return (
-    <div className="bg-white  pt-24 ">
+    <div className="bg-white  pt-24 " id="service">
       <div className="container">
         <div className="section-heading">
         <div className="flex justify-center gap-6">
@@ -50,7 +50,7 @@ export const Service = () => {
         {service.map(({ title, imageSrc, description }) => (
           <div className="card " key={title}>
             <div className="flex justify-center gap-2 mt-5 ">
-            <Image src={imageSrc} alt={title} width={80} height={80} className="h-32 w-32 rounded-full items-center mb-10" /></div>
+            <Image src={imageSrc} alt={title} width={100} height={100} className="h-32 w-32  items-center mb-10" /></div>
             <div className="font-bold text-center">{title}</div>
               <div className="flex flex-col">
                 <div className="font-medium tracking-tight leading-5 text-center">{description}</div>
