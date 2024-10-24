@@ -39,9 +39,9 @@ const service= [
         result: ' Achieved a 150% increase in organic traffic and a 30% rise in qualified leads within 6 months.'
     },
     {
-        title: "Bella's Beauty Spa",
+        title: "Bella Beauty Spa",
         imageSrc: spa,
-        problem: 'Bella’s Beauty Spa had low engagement on social media and struggled to convert followers into paying customers, leading to fewer bookings for premium beauty treatments.',
+        problem: 'Bella Beauty Spa had low engagement on social media and struggled to convert followers into paying customers, leading to fewer bookings for premium beauty treatments.',
         solution:'We developed a social media strategy, focusing on visually engaging posts, targeted Instagram and Facebook ads, and collaborations with local influencers. Seasonal promotions were also introduced.',
         result: ' Increased social media engagement by 500% and bookings by 40%, while doubling their Instagram followers in 6 months.'
     },
