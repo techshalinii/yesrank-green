@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div id='ContactUs' className="relative flex flex-col items-center p-4">
+    <div id='ContactUs' className="relative flex flex-col items-center p-4 bg-white">
       <div className=" text-center">
-        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold my-10 ">
+        <h2 className="text-2xl sm:text-3xl  lg:text-5xl font-bold my-10 ">
           Contact
           <span>
             {" "} Us
@@ -12,7 +12,7 @@ const ContactUs = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center w-full">
+      <div className="flex flex-col lg:flex-row justify-center items-center w-full mb-24">
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <section className="w-full max-w-[600px]">
             <form className='w-full p-6 bg-white shadow-lg rounded-lg'>
@@ -45,7 +45,7 @@ const ContactUs = () => {
                   required
                 ></textarea>
               </div>
-              <button type='submit' className='mt-6 w-full h-[55px] bg-[#AFFFEA] rounded-lg shadow-sm hover:bg-[#06D6A0]'>
+              <button type='submit' className='mt-6 w-full h-[55px] bg-black text-white rounded-lg shadow-sm '>
                 Send Message
                 </button>
             </form>
