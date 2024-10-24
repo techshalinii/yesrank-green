@@ -32,7 +32,7 @@ export const Header = () => {
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
               <a href="#home" onClick={closeDrawer}>Home</a>
               <a href="#service">Services</a>
-              <a href="#">Case Studies</a>
+              <a href="/caseStudy">Case Studies</a>
               <a href="#">About Us</a>
               <a href="/contact">Contact Us</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
@@ -47,7 +47,7 @@ export const Header = () => {
             <nav className="flex flex-col gap-6 text-black items-center">
               <a href="#home" onClick={closeDrawer}>Home</a>
               <a href="#service" onClick={closeDrawer}>Services</a>
-              <a href="#" onClick={closeDrawer}>Case Studies</a>
+              <a href="/caseStudy" onClick={closeDrawer}>Case Studies</a>
               <a href="#" onClick={closeDrawer}>About Us</a>
               <a href="/contact" onClick={closeDrawer}>Contact Us</a>
               <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
