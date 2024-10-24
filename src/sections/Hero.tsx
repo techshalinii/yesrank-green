@@ -4,6 +4,8 @@ import cylinderImage from '@/assets/cylinder1.png';
 import noodleImage from '@/assets/half.png'
 import {motion, useScroll, useTransform, useMotionValueEvent} from 'framer-motion'
 import {useRef} from 'react';
+import saly from '@/assets/Saly.png'
+import sphere from '@/assets/sphere.png'
 
 export const Hero = () => {
 
@@ -31,7 +33,20 @@ export const Hero = () => {
         </div>
         <div className='mt-20 md:mt-0 md:h-[648px] md:flex-1 relative'>
           <motion.img 
-          src={cogImage.src} 
+          src={sphere.src} 
+          alt="cog image" 
+          className='md:absolute md:h-full md:w-auto md:max-w-none md:left-6 lg:left-0 opacity-25'
+          animate={{translateY: [-30, 30],}}
+          transition={{
+            repeat: Infinity,
+            repeatType:'mirror',
+            duration: 3,
+            ease: 'easeInOut'
+          }}
+          
+          />
+          <motion.img 
+          src={saly.src} 
           alt="cog image" 
           className='md:absolute md:h-full md:w-auto md:max-w-none md:left-6 lg:left-0'
           animate={{translateY: [-30, 30],}}
