@@ -63,7 +63,7 @@ const CaseStudy = () => {
         <div className="tag">Case Studies</div>
         </div>
         <h2 className="section-title mt-5">Success Stories</h2>
-        <p className="section-description mt-5">See how we've helped businesses like yours achieve outstanding results.</p></div>
+        <p className="section-description mt-5">See how we have helped businesses like yours achieve outstanding results.</p></div>
         <div className="flex justify-center gap-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mt-10 mb-24">
         {service.map(({ title, imageSrc, problem, solution, result}) => (
